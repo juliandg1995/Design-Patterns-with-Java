@@ -1,0 +1,11 @@
+package ar.edu.unlp.info.oo2.FileManager;
+
+public class NameDecorator {
+	
+	private String name;
+	
+	public String prettyPrinter() {
+		return this.toString();
+	}
+
+}

@@ -1,0 +1,21 @@
+package ar.edu.unlp.info.oo2.biblioteca.extension;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
+import ar.edu.unlp.info.oo2.biblioteca.JsonExporter;
+
+public class ExporterSimple extends VoorheesExporter {
+	
+	public ExporterSimple() {
+	}
+	
+	public String exportar(Socio unSocio) {
+		return null;
+	}
+	
+	private String exportar(Socio unSocio) {
+		JSONObject unJsonObject = new JSONObject();
+	}
+	
+}

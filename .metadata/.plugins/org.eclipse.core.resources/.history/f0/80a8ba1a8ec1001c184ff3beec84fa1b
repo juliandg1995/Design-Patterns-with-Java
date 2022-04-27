@@ -1,0 +1,19 @@
+package ar.edu.unlp.info.oo2.DecodificadorDePelis;
+
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.*;
+
+public abstract class Sugerencia {
+
+	public List<Pelicula> sugerir(List<Pelicula> peliculas, List<Pelicula> reproducidas){
+	.collect(Collectors.toList());
+	}
+	
+	protected Stream<Pelicula>  filterMovies(List<Pelicula> peliculas, List<Pelicula> reproducidas) {
+		return peliculas
+				.stream()
+				.filter(p->!reproducidas.contains(p));
+	}
+	
+}

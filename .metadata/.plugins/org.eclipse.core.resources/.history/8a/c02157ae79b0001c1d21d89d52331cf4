@@ -1,0 +1,14 @@
+package ar.edu.unlp.info.oo2.biblioteca.extension;
+
+import ar.edu.unlp.info.oo2.biblioteca.JsonExporter;
+
+public class ExporterSimple extends VoorheesExporter {
+	
+	public ExporterSimple() {
+	}
+	
+	private String exportar(Socio unSocio) {
+		return JsonExporter(unSocio);
+	}
+	
+}

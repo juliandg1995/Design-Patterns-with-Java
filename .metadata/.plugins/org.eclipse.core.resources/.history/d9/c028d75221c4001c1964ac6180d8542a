@@ -1,0 +1,14 @@
+package ar.edu.unlp.info.oo2.FileManager;
+
+public abstract class File {	
+	
+	protected abstract String prettyPrint();
+	
+	protected File decorateWith(File aDecorator) {
+		
+		
+		
+		return null;
+	}
+
+}

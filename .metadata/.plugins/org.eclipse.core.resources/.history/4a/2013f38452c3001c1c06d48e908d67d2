@@ -1,0 +1,13 @@
+package ar.edu.unlp.info.oo2.FileManager;
+
+public abstract class FileDecorator {
+	
+	private File aFile;
+	
+	public FileDecorator(File aFileToDecorate) {
+		this.aFile = aFileToDecorate;
+	}
+	
+	public abstract String prettyPrint();
+
+}

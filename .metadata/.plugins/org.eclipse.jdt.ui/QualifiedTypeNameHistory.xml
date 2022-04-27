@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="sun.net.www.protocol.mailto.MailToURLConnection"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.z.ZAttachedArrayForForwarding"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.biblioteca.Socio"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.biblioteca.VorheesExporterTest"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.biblioteca.extension.Socio"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.biblioteca.extension.VoorheesExporter"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.Calculo_Sueldos.Empleado"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.Calculo_Sueldos.Planta"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.Calculo_Sueldos.Pasante"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.Calculo_Sueldos.Temporario"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.FileSystem.Archivo"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.oops.java_lang_Class"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+</qualifiedTypeNameHistroy>

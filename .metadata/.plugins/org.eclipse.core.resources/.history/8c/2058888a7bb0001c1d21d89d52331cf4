@@ -1,0 +1,25 @@
+package ar.edu.unlp.info.oo2.biblioteca.extension;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
+import ar.edu.unlp.info.oo2.biblioteca.JsonExporter;
+
+public class ExporterSimple extends VoorheesExporter {
+	
+	public ExporterSimple() {
+	}
+	
+	public String exportar(Socio unSocio) {
+		return null;
+	}
+	
+	@SuppressWarnings("unchecked")
+	private String exportar(Socio unSocio) {
+		JSONObject unJsonObject = new JSONObject();
+		unJsonObject.put("Nombre: ", unSocio.getNombre());
+		unJsonObject.put("Email: ", unSocio.getEmail());
+		unJsonObject.put("Legajo: ", unSocio.getLegajo());
+	}
+	
+}
